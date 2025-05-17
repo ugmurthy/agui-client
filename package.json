@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node dist/index.js",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["AG-UI","Client"],
+  "author": "U G Murthy <ugmurthy@gmail.com>",
   "license": "ISC",
   "packageManager": "pnpm@10.6.2",
   "devDependencies": {
